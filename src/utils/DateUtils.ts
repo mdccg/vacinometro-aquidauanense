@@ -1,8 +1,8 @@
 import moment from 'moment';
 
 /**
- * @param stringFirstDate "DD/MM/YYYY" 
- * @param stringLastDate "DD/MM/YYYY "
+ * @param stringFirstDate "01/01/2021" 
+ * @param stringLastDate "01/03/2021"
  * @returns ["jan. 2021", "fev. 2021", "mar. 2021"]
  */
 export const getIntervalsDate = (stringFirstDate: string, stringLastDate: string) => {
